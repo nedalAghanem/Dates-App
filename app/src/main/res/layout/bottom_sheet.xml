@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/secondLinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_linear"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="16dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_30dp"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/margin_16dp"
+            android:src="@drawable/ic_back_arrow" />
+
+        <TextView
+            android:id="@+id/txt_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:textAllCaps="true"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/txt_22sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/margin_28dp"
+        android:layout_marginVertical="@dimen/margin_28dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_12dp"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:text="@string/company_name"
+            android:textColor="@color/black" />
+
+
+        <RelativeLayout
+            android:id="@+id/relativeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:padding="@dimen/margin_12dp">
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/reservation_date"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:padding="@dimen/margin_12dp">
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/reservation_time"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow" />
+        </RelativeLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/topCorner_20dp"
+            android:background="@color/white"
+            android:textColorHint="@color/teal_700">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editOtherDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="@string/other_details"
+                android:textColor="@color/black" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_50dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_40dp"
+            android:background="@drawable/shape_main_btn"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/margin_40dp"
+            android:paddingVertical="@dimen/margin_16dp"
+            android:text="@string/edit"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_btn_red"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/margin_30dp"
+            android:paddingVertical="@dimen/margin_16dp"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_50dp"
+        android:background="@drawable/shape_main_btn"
+        android:drawableEnd="@drawable/ic_baseline_check_24"
+        android:drawablePadding="@dimen/margin_8dp"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/margin_40dp"
+        android:paddingVertical="@dimen/margin_16dp"
+        android:text="@string/finish_edit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

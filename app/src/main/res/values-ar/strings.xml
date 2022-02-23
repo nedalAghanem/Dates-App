@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حجز المواعيد</string>
+    <string name="title">حجز المواعيد</string>
+    <string name="new_appointments">حجز موعد جديد</string>
+    <string name="welcome">مرحبا</string>
+    <string name="welcome_text">مرحبًا بك في تطبيق حجز المواعيد.
+هذا التطبيق هو خدمة حجز المواعيد مع جهات معينة تمت إضافتها مسبقًا إلى التطبيق.</string>
+    <string name="sign_up">سجِّل</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="create_account">انشاء حساب جديد</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">الكنية</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="address">العنوان</string>
+    <string name="gender">الجنس</string>
+    <string name="password">كلمة المرور</string>
+    <string name="company_name">اسم المؤسسة</string>
+    <string name="details">التفاصيل</string>
+    <string name="date_time">17 April 2020</string>
+    <string name="_10_am">10 AM</string>
+    <string name="_40_min">40 Min</string>
+
+    <string name="omar_mukhtar_street">شارع عمر المختار</string>
+    <string name="palestine_bank">بنك فلسطين</string>
+    <string name="reservation_date">تاريخ الحجز</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="company_address">عنوان المؤسسة</string>
+    <string name="times_of_work">اوقات العمل</string>
+    <string name="contact_information">معلومات التواصل</string>
+    <string name="other_details">تفاصيل اخرى</string>
+    <string name="add_description">اضف وصفا</string>
+    <string name="reservation">حجز</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="errorFirstName">يرجى ادخال الاسم الاول</string>
+    <string name="errorLastName">الرجاء إدخال اسمك الأخير</string>
+    <string name="errorPhoneNumber">يرجى إدخال رقم الهاتف الخاص بك</string>
+    <string name="errorEmail">رجاءا أدخل بريدك الإلكتروني</string>
+    <string name="errorPassword">من فضلك أدخل رقمك السري</string>
+    <string name="errorAddress">الرجاء إدخال عنوانك</string>
+    <string name="_0597204724">0597204724</string>
+    <string name="reservation_time">وقت الحجز</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="error_company">الرجاء إدخال اسم الشركة</string>
+    <string name="error_date">الرجاء إدخال التاريخ</string>
+    <string name="error_time">الرجاء إدخال الوقت</string>
+    <string name="error_details">الرجاء إدخال التفاصيل</string>
+    <string name="edit_success">تم تعديل الموعد بنجاح</string>
+    <string name="delete_success">تم حذف الموعد بنجاح</string>
+    <string name="finish_edit">إنهاء التحرير</string>
+    <string name="create_an_account">انشئ حساب ؟</string>
+    <string name="appointment_ended">انتهى الموعد</string>
+
+
+</resources>

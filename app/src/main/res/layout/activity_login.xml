@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Auth.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageBG"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_black_bg" />
+
+    <TextView
+        android:id="@+id/login_txt_title"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageBG"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/shape_linear"
+        android:orientation="vertical"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="40dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="38dp"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="@color/title"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/teal_700"
+
+            android:layout_marginBottom="18dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_black_stroke"
+                android:hint="@string/first_name"
+                android:textColor="@color/black"
+
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/teal_700"
+            android:layout_marginBottom="38dp"
+           >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPassword"
+                android:textColor="@color/black"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@drawable/shape_black_stroke"
+                android:hint="@string/password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/shape_main_btn"
+            android:text="@string/log_in"
+            android:textSize="@dimen/txt_20sp"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCreateAccount"
+            android:textColor="@color/blue"
+            android:text="@string/create_an_account"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginBottom="26dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

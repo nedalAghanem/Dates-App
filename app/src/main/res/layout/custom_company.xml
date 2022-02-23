@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/margin_8dp"
+    android:layout_marginVertical="@dimen/margin_8dp"
+    android:clipToPadding="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/margin_16dp"
+    app:cardElevation="@dimen/margin_8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_8dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/topCorner_20dp"
+            android:background="@color/white"
+            android:textColorHint="@color/teal_700">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/customCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:hint="@string/company_name"
+                android:textColor="@color/black"
+                tools:text="@string/palestine_bank" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/topCorner_20dp"
+            android:background="@color/white"
+            android:textColorHint="@color/teal_700">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/customCompanyAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:hint="@string/company_address"
+                android:textColor="@color/black"
+                tools:text="@string/omar_mukhtar_street" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/topCorner_20dp"
+            android:background="@color/white"
+            android:textColorHint="@color/teal_700">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/customTimeWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:hint="@string/times_of_work"
+                android:textColor="@color/black"
+                tools:text="10 AM - 6 PM" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/topCorner_20dp"
+            android:background="@color/white"
+            android:textColorHint="@color/teal_700">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/customContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:hint="@string/contact_information"
+                android:textColor="@color/black"
+                tools:text="@string/_0597204724" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

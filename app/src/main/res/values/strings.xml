@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Booking Appointments</string>
+    <string name="title">Booking Appointments</string>
+    <string name="new_appointments">Book a new Appointments</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_text">Welcome to the appointment booking app.
+This application is an appointment booking service with certain parties that have been previously added to the application.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="create_account">Create New Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="gender">gender</string>
+    <string name="password">password</string>
+    <string name="company_name">Company Name</string>
+    <string name="details">Details</string>
+    <string name="date_time">17 April 2020</string>
+    <string name="_10_am">10 AM</string>
+    <string name="_40_min">40 Min</string>
+
+    <string name="omar_mukhtar_street">Omar Mukhtar Street</string>
+    <string name="palestine_bank">Palestine bank</string>
+    <string name="reservation_date">Reservation date</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="company_address">Company Address</string>
+    <string name="times_of_work">Times of work</string>
+    <string name="contact_information">Contact information</string>
+    <string name="other_details">Other details</string>
+    <string name="add_description">Add Description</string>
+    <string name="reservation">Reservation</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="errorFirstName">Please enter your first name</string>
+    <string name="errorLastName">Please enter your last name</string>
+    <string name="errorPhoneNumber">Please enter your phone number</string>
+    <string name="errorEmail">Please enter your email</string>
+    <string name="errorPassword">Please enter your password</string>
+    <string name="errorAddress">Please enter your address</string>
+    <string name="_0597204724">0597204724</string>
+    <string name="reservation_time">Reservation time</string>
+    <string name="log_out">Log Out</string>
+    <string name="error_company">Please enter company name</string>
+    <string name="error_date">Please enter date</string>
+    <string name="error_time">Please enter time</string>
+    <string name="error_details">Please enter details</string>
+    <string name="edit_success">Appointment has been edited successfully</string>
+    <string name="delete_success">Appointment has been deleted successfully</string>
+    <string name="finish_edit">Finish Editing</string>
+    <string name="create_an_account">Create an account ?</string>
+    <string name="appointment_ended">Appointment Ended</string>
+
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+</resources>
